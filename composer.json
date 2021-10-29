@@ -1,0 +1,21 @@
+{
+	"name": "silverstripe/installer",
+	"description": "The SilverStripe Framework Installer",
+	"require": {
+		"php": ">=5.2.4",
+		"silverstripe/cms": "2.4.*",
+		"silverstripe/framework": "2.4.*",
+		"silverstripe-themes/blackcandy": "2.4.*"
+	},
+	"minimum-stability": "dev",
+	"config": {
+		"platform": {
+			"php": "5.6"
+		}
+	},
+	"extra": {
+		"installer-paths": {
+			"sapphire": ["silverstripe/framework"]
+		}
+	}
+}
